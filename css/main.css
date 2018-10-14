@@ -10,36 +10,34 @@ html {
 }
 
 body {
-  margin: 0rem
-}
-
-header {
-  padding: .75em;
   background-color: #79756f;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
+  margin: auto;
+}
+
+header {
+  background-color: #79756f;
 }
 
 h1 {
   color: #fff;
   background-color: #79756f;
   text-align: center;
-  font-family: "Bevan";
-  margin: 0rem
+  font-family: Bevan;
+  margin: .3rem
 }
 
 nav {
   list-style-type: georgian;
   text-decoration: none;
   background-color: #79756f;
-  text-align: center;
 }
 
 ul {
   list-style: none;
   text-decoration: none;
   background-color: #79756f;
-  text-align: center;
 }
 
 li {
