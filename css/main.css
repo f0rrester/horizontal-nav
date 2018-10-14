@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  background-color: #fff;
+  font-family: 'Bevan', sans-serif;
+  line-height: 1.5;
+}
+
+.header {
+  padding: .75em;
+  background-color: #dbd6cf;
+}
+
+h1 {
+  text-decoration-color: #79756f;
+  text-align: center;
+}
+
+nav {
+  text-decoration: none;
+}
+
+ol {
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #79756f;
+  color: #595652;
+}
