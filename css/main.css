@@ -9,6 +9,10 @@ html {
   background-color: #dbd6cf;
 }
 
+body {
+  margin: 0rem
+}
+
 header {
   padding: .75em;
   background-color: #79756f;
@@ -20,17 +24,18 @@ h1 {
   color: #fff;
   background-color: #79756f;
   text-align: center;
-  font-family: 'Bevan', sans-serif;
+  font-family: "Bevan";
+  margin: 0rem
 }
 
 nav {
-  list-style: none;
+  list-style-type: georgian;
   text-decoration: none;
   background-color: #79756f;
   text-align: center;
 }
 
-ol {
+ul {
   list-style: none;
   text-decoration: none;
   background-color: #79756f;
@@ -46,12 +51,6 @@ li {
 }
 
 a {
-  background-color:#79756f;
-  display: inline-block;
-  text-align: center;
-}
-
-.btn {
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -60,4 +59,8 @@ a {
   background-color: #713837;
   color: #fff;
   border-radius: .25em;
+}
+
+.btn:hover {
+  background-color: #f33;
 }
