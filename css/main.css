@@ -13,7 +13,7 @@ body {
   background-color: #79756f;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
-  margin: 0rem;
+  margin: 0;
 }
 
 header {
@@ -24,7 +24,7 @@ h1 {
   color: #fff;
   background-color: #79756f;
   text-align: center;
-  font-family: 'Bevan', cursive;
+  font-family: Bevan, serif;
   margin: .3rem;
 }
 
@@ -54,6 +54,7 @@ a {
   display: inline-block;
   text-align: center;
   text-decoration: none;
+  vertical-align: middle;
   font-family: sans-serif;
   font-weight: bold;
   padding: .5em;
