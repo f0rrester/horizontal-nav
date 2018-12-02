@@ -1,12 +1,26 @@
 html {
   box-sizing: border-box;
+  font-family: 'Bevan', sans-serif;
+  line-height: 1.5;
+  background-color: #dbd6cf;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-  font-family: georgia, sans-serif;
-  line-height: 1.5;
-  background-color: #dbd6cf;
+}
+
+header {
+  background-color: #79756f;
+  border: .7em 0;
+  margin: 0;
+  padding: .05em 0;
+  text-align: center;
+}
+
+div {
+  color: #fff;
+  background-color: #79756f;
+  margin: .1em 0;
 }
 
 body {
@@ -14,18 +28,6 @@ body {
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
   margin: 0;
-}
-
-header {
-  background-color: #79756f;
-}
-
-h1 {
-  color: #fff;
-  background-color: #79756f;
-  text-align: center;
-  font-family: Bevan, serif;
-  margin: .3rem;
 }
 
 nav {
